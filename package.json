@@ -1,0 +1,17 @@
+{
+  "name": "next-turbopack-chunk-qsa-repro",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "start": "next start -p 3123",
+    "measure": "node scripts/measure.mjs"
+  },
+  "dependencies": {
+    "next": "16.5.0-canary.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
